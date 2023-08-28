@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Java\Workspace\DepHumDip\Myprog.jar</jar>
+  <outfile>C:\Java\Workspace\DepHumDip\DepHum.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Java\Workspace\DepHumDip\Image.ico</icon>
+  <jre>
+    <path>C:\Java\jdk-18.0.1.1</path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion></minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+    <opt>--module-path &quot;C:\\Java\\javafx-sdk-18.0.1\\lib&quot; --add-modules ALL-MODULE-PATH</opt>
+  </jre>
+</launch4jConfig>
